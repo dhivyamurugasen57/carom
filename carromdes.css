@@ -1,0 +1,272 @@
+body{
+    background-color:#184d47 ;
+}
+.carromborde{
+    border: 5px solid brown;
+    height:400px;
+    width:400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px black;
+    background-color: #faf0af;
+    /* background-color: bisque; */
+}
+.circle{
+    height: 40px;
+    width: 40px;
+    /* background-color: black; */
+    position: absolute;
+    border-radius: 50%;
+    background-image: radial-gradient(circle,rgb(60,60,60), rgba(0,0,0));
+}
+.circle-1{
+    top:0;
+    left:0;
+}
+.circle-2{
+    top:0;
+    right:0;
+}
+.circle-3{
+    bottom:0;
+    left:0;
+}
+.circle-4{
+    bottom:0;
+    right:0;
+}
+
+.base{
+    border: 3px solid #97623a;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+
+}
+ .top-base{
+    height:5.5%;
+    width: 60%;
+    top:14%;
+    left:50%;
+    border: 1.3px solid #97623a;
+} 
+.rigth-base{
+    height:60%;
+    width: 5.5%;
+    top:50%;
+    right: 8%;
+    border: 1.3px solid #97623a;
+} 
+.bottom-base{
+    height: 5.5%;
+    width:60%;
+    bottom:7%;
+    left:50%;
+    border: 1.3px solid #97623a;
+}
+.left-base{
+    height:60%;
+    width: 5.5%;
+    top:50%;
+    left:15%;
+    border: 1.3px solid #97623a;
+}
+.samllcircle{
+    height: 14px;
+    margin-top:14px;
+    width: 14px;
+    background-color:#e67904;
+    position: absolute;
+    border-radius: 50%;
+    margin: 3px;
+    
+}
+.smcircle-1{
+    top:0%;
+    left:0%;
+}
+.smcircle-2{
+    top:0%;
+    right:0%;
+}
+.smcircle-3{
+    top:0%;
+    right:0%;
+}
+.smcircle-4{
+    right:0%;
+    bottom:0%;
+}
+.smcircle-5{
+    right:0%;
+    bottom:0%;
+}
+.smcircle-6{
+    left:0%;
+    bottom:0%;
+}
+.smcircle-7{
+    left:0%;
+    bottom:0%;
+}
+.smcircle-8{
+    top:0%;
+    bottom:0%;
+}
+
+.outline{
+    height: 18px;
+    width: 18px;
+    border:2px solid #97623a;
+    border-radius: 50%;
+    position: absolute;
+}
+.outline-1{
+    top:-2px;
+    left:-1px;
+}
+.outline-2{
+    top:-2px;
+    right:-1px;
+}
+.outline-3{
+    top:0%;
+    left:0%;
+}
+.outline-4{
+    bottom:0%;
+    right: 0%;
+}
+.outline-5{
+    bottom:0%;
+    right: 0%;
+}
+.outline-6{
+    bottom:0%;
+    left:0%;
+}
+.outline-7{
+    bottom:-2px;
+    right:0%;
+}
+.blackcoins{
+    
+    height: 17px;
+    margin-top:15%;
+    margin-left: 2%;
+    width: 17px;
+    background-color: rgba(10, 6, 6, 0.884);
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid rgb(230, 192, 192);
+}
+.coins-1{
+    top:25%;
+    left:20%;
+
+}
+.coins-2{
+    top:20%;
+    right:2%;
+}
+.whitecoins{
+    height: 17px;
+    margin-top:40%;
+    margin-left: 70%;
+    border-radius: 50%;
+    width: 17px;
+    background-color: rgb(184, 97, 15);
+    border: 2px solid rgb(230, 192, 192);
+    position: absolute;
+}
+.coins-11{
+   right: 60%;
+    bottom:6%;
+}
+
+.coins-22{
+    left:8%;
+    top:13%;
+}
+.coins-33{
+    bottom:19%;
+    right: 30%;
+}
+.redcoins-1{
+    
+    height: 17px;
+    margin-top:48%;
+    width: 17px;
+    margin-left: 80%;
+    background-color: rgb(209, 22, 38);
+    border-radius: 50%;
+}
+.coins{
+    position: absolute;
+}
+
+.stiker-2{
+    height: 20px;
+width: 20px;
+background-color: red;
+background-image: linear-gradient(rgb(8, 8, 14),rgb(0, 132, 255));
+border: 2px solid rgb(218, 206, 206);
+border-radius: 50%;
+margin-left: 12.5%;
+margin-top: 40%;
+
+}
+
+.center{
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 38%;
+    margin-top: 39%;
+    box-sizing: border-box;
+    position: absolute;
+    
+}
+
+.corner{
+    height:40px;
+    width: 40px;
+    border: 8px solid rgba(240,129,7);
+    position: absolute;
+    transform: translate(-50% ,-50%);
+}
+.corner-1{
+    border-right: 0px;
+    border-bottom: 0px;
+    border-radius: 50% 0 0 0;
+    top:4%;
+    left:4.3%;
+}
+.corner-2{
+    border-left: 0px;
+    border-bottom: 0px;
+    border-radius:  0 50% 0 0;
+    top:4%;
+    right:-8.2%;
+}
+.corner-3{
+    border-top: 0px;
+    border-left: 0px;
+    border-radius: 0 0 50% 0;
+    bottom:-8.5%;
+    right: -8.2%;
+
+}
+.corner-4{
+    border-top: 0px;
+    border-radius: 0 0 0 50%;
+    border-right: 0px;
+    bottom:-8.5%;
+    left: 4.3%;
+}
+.arrow{
+    position: absolute;
+}
